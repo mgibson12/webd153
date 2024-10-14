@@ -1,23 +1,23 @@
 body {
-    background-color: #fff;
-    color: #666;
+  background-color: #fff;
+  color: #555;
 }
 header {
-    background-color: #003;
-    color: #fff;
+  background-color: #002171;
+  color: #fff;
 }
 nav {
-    background-color: #90c7e3;
+  background-color: #bbdefb;
 }
 h1 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 h2 {
-    color: #39c;
+  color: #1976d2;
 }
 dt {
-    color: #003;
+  color: #002171;
 }
 .resort {
-    color: #5C7fa3;
+  color: #1976d2;
 }

@@ -1,0 +1,181 @@
+* { 
+	box-sizing: border-box; 
+}
+body{
+	background-color: #40407A;
+	font-family: Verdana, Arial, sans-serif;
+	margin: 0;
+	
+}
+main{
+	color: #40407A;
+}
+header{
+	font-size: 90%;
+	min-height: 200px;
+	margin-top: 50px; /* mt50 */
+	background-image: url(yoga_images/sunrise.jpg);
+	background-color: #40407A;
+	background-size: 100% 100%;
+	color: #FFFFFF;
+	
+}
+header a:link{
+	color: #FFF;
+	text-decoration: none;
+}
+header a:visited{
+	color: #FFF;
+}
+header a:hover{
+	color: #EDF5F5;
+}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	height: auto;
+	width: 100%;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+	padding-right: 0;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-right: 2em;
+	font-size: 1.2em;
+	overflow: hidden;
+	width: 100%;
+	display: flex ;
+	justify-content: flex-end;
+	
+}
+
+nav li {
+	width: 30%;
+	display: inline;
+	padding-left: 2em;
+	float: left
+}
+nav a:link{
+	color: #3F2863;
+	text-decoration: none;
+}
+nav a:visited {
+	color: #497777;
+  	display: block;
+  	text-align: right;
+  	padding: 20px;
+}
+
+li a:hover {
+  color: #A26100;
+}
+img{
+	float: right;
+	padding-left: 10px;
+}
+footer{
+	clear: right;
+	text-align: center;
+	font-style: italic;
+	font-size: small;
+}
+.name{
+	color: #40407A;
+}
+li, dd{
+	font-size: 90%;
+}
+#classes img{
+	padding-bottom: 20px;
+}
+#wrapper{
+	background-color: #F5F5F5;
+	padding: 2em;
+}
+.home{
+	height: 40%;
+	height: 20vh;
+	padding-top: 2em;
+	padding-left: 10%;
+}
+.content{
+	height: 20vh;
+	padding-top: 2em;
+	padding-left: 10%;
+}
+#mathero{
+	height: 300px;
+	background-image: url(yoga_images/yogamat.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: none;
+}
+#loungehero{
+	height: 300px;
+	background-image: url(yoga_images/yogalounge.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: none;
+}
+h2{
+	margin: 0;
+}
+.address{
+	overflow: auto;
+}
+section{
+	padding-left: .5em;
+	padding-right: .5em;
+}
+#flow{
+	display: block;
+}
+@media (min-width: 600px){
+	nav ul{
+		flex-flow: row nowrap;
+		justify-content: flex-end;
+	}
+	nav li{
+		width: 7em;
+	}
+	section{
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	#mathero, #loungehero{
+		display: block;
+		padding-bottom: 1em;
+	}
+	#flow{
+		display: flex;
+		flex-direction: row;
+	}
+}
+@media (min-width: 1024px){
+	header{
+		font-size: 120%;
+	}
+	nav{
+		font-weight: bold;
+	}
+	.home{
+		height: 50vh;
+		padding-top: 5em;
+		padding-left: 8em;
+	}
+	.content{
+		height: 30vh;
+		padding-top: 2em;
+		padding-left: 8em;
+	}
+	#wrapper{
+		margin: auto;
+		width: 80%;
+	}
+}
